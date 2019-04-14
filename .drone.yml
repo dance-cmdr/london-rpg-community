@@ -3,7 +3,7 @@ pipeline:
     image: plugins/s3-sync:1
     pull: true
     secrets: [aws_access_key_id, aws_secret_access_key]
-    bucket: there-be-observables-prod
+    bucket: london-rpg.com
     source: ./dist
     region: eu-west-2
     when:
