@@ -14,7 +14,7 @@ const Header = ({ siteTitle, siteTheme }) => (
       style={{
         maxWidth: 960,
         maxHeight: `calc(100vh - 2rem)`,
-        width: `calc(100vh * 0.65)`,
+        width: `calc(100vh * 0.55)`,
         margin: `0 auto`,
       }}
     >
