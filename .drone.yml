@@ -14,7 +14,6 @@ pipeline:
     image: node:latest
     commands:
       - npm run build
-      - ls dist
   deploy-production:
     image: plugins/s3-sync:1
     pull: true
