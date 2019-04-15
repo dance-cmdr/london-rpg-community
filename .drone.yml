@@ -4,7 +4,7 @@ pipeline:
     pull: true
     secrets: [aws_access_key_id, aws_secret_access_key]
     bucket: london-rpg.com
-    source: ./dist
+    source: ./public
     region: eu-west-2
     when:
       event: push
