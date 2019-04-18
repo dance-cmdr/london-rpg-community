@@ -14,6 +14,9 @@ const SocialButtons = () => (
       <li>
         <SocialIcon url="https://www.instagram.com/rpgcommunityldn/" />
       </li>
+      <li>
+        <SocialIcon url="https://www.meetup.com/LondonRPGCommunity/" network="meetup" />
+      </li>
     </ul>
 )
 
