@@ -25,7 +25,8 @@ const WelcomeNote = () => (
       <span role="img" aria-label="Book icon">
         📖
       </span>
-      Check out our ‘Player’s guide to the Kantas Expanse’ http://bit.ly/2D8v2QO
+      Check out our ‘Player’s guide to the Kantas Expanse’{" "}
+      <a href="http://bit.ly/2D8v2QO"> http://bit.ly/2D8v2QO </a>
     </p>
     <p>
       <span role="img" aria-label="Torchlight icon">
@@ -41,7 +42,10 @@ const WelcomeNote = () => (
       for you! Message any of the event organisers and we’ll see what we can do
       to accommodate your campaign and find you players.
     </p>
-    <p>London RPG Community’s Code of Conduct http://bit.ly/2UlnC29</p>
+    <p>
+      London RPG Community’s Code of Conduct{" "}
+      <a href="http://bit.ly/2UlnC29">http://bit.ly/2UlnC29</a>
+    </p>
   </section>
 )
 
